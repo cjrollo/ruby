@@ -10,3 +10,6 @@ php -v
 
 # Python installed?
 python -v
+
+# Java installed?
+java -version
