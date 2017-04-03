@@ -14,3 +14,5 @@ java -version
 
 # Python installed?
 python -v
+
+echo "this is end of the health check"
