@@ -8,8 +8,9 @@ ruby -v
 # php installed?
 php -v
 
-# Python installed?
-python -v
 
 # Java installed?
 java -version
+
+# Python installed?
+python -v
