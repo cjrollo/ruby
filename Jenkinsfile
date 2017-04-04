@@ -5,7 +5,7 @@ pipeline {
 
         stage('Deploy - Staging') {
             steps {
-                sh './deploy staging'
+                sh './deploy.sh staging'
                 sh './run-smoke-tests'
             }
         }
@@ -18,7 +18,7 @@ pipeline {
 
         stage('Deploy - Production') {
             steps {
-                sh './deploy production'
+                sh './deploy.sh production'
             }
         }
     }
